@@ -1,9 +1,9 @@
-﻿1 EC-CUBEソース読み
+﻿1. EC-CUBEソース読み<br />
 	1. 「ec」ディレクトリにec-cubeを格納
 	1. EC-CUBEのソースを読んで、わかったことを書いていく
 	1. 最終的には改造できるようにする
 	1. 商品管理 のページクラス<br />
-	/ec/data/class/pages/admin/products/LC_Page_Admin_Products.php
+	/ec/data/class/pages/admin/products/LC_Page_Admin_Products.php<br />
 		1. DB関連のヘルパークラス<br />
 		/ec/data/class/helper/SC_Helper_DB.php<br />
 		1. パラメーター管理クラス<br />
