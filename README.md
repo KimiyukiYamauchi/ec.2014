@@ -18,3 +18,10 @@
 				SC_DB_DBFactory_MYSQL<br />
 		1. SQLの構築・実行を行う<br />
 		/ec/data/class/SC_Query.php<br />
+1. 改造箇所
+	1. /ec/html/frontparts/bloc/product_table.php を新規作成
+	1. /ec/data/class_extends/page_extends/frontparts/bloc/LC_Page_FrontParts_Bloc_Product_Table.php を新規作成
+	1. /ec/data/class/pages/frontparts/bloc/LC_Page_FrontParts_Bloc_Product_Table.php を新規作成
+	1. /ec/data/Smarty/templates/default/frontparts/bloc/product_table.tpl を新規作成
+	1. insert into dtb_bloc values(10,11,'product_table','product_table.tpl','product_table',now(),now(),'frontparts/bloc/product_table.php',0, null);
+1. サンプルの動作確認
