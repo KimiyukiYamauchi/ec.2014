@@ -1,9 +1,9 @@
-<style type="text/css">
+<style type="text/css"><!--
 div#productlist_area h2 {
-	backgroud-color:#de5e17;
 	text-align:center;
 	color:#fff;
 	padding:7px 0 7px 0;
+	background-color:#de5e17;
 }
 div#productlist_area div.productImage {
 	float:left;
@@ -16,13 +16,13 @@ div#productlist_area div.prodoctContents {
 }
 div#productlist_area div.product_item {
 	padding:5px 0 5px 5px;
-}
+}-->
 </style>
 
 <!--{if count($arrProducts) > 0}-->
 	<div class="bloc_outer clearfix">
 		<div id="productlist_area">
-			<h2>商品一覧リスト</h2>
+		<h2>商品一覧リスト</h2>
 			<div class="bloc_body clearfix">
 				<!--{foreach from=$arrProducts item=arrProduct}-->
 					<div class="product_item clearfix">
