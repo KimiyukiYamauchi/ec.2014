@@ -40,9 +40,14 @@ class LC_Page_FrontParts_Bloc_Product_Table extends LC_Page_FrontParts_Bloc{
 
 	//	$this->arrProducts = $objProduct->lists($objQuery);
 		$productId = 1;
-		$class = $objProduct->getProductsClassFullByProductId($productId);
-		//$class = $objProduct->getProductsClass($productId);
-		var_dump($class);
+		$classes = $objProduct->getProductsClassFullByProductId($productId);
+		//var_dump($class);
+		print "<ul>\n";
+		foreach($classes as $class){
+			print '<li>' . $class['classcategory_name1'] . '/' . 
+				$class['classcategory_name2'] . ': '. $class['price01'] . "</li>\n";
+		}
+		print "</ul>\n";
 
 
 //		$objView->assignobj($this);
